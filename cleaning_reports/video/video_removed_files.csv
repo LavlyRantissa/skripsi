@@ -1,0 +1,4 @@
+source_path,label,class_name,subtype,remove_reason,source_column
+/content/fakeparts_raw/T2V/sora-1080p/fake_videos/shard-000005.parquet,1,Fake,T2V,cannot_read_frame,bytes
+/content/fakeparts_raw/T2V/sora-1080p/fake_videos/shard-000005.parquet,1,Fake,T2V,cannot_read_frame,bytes
+/content/fakeparts_raw/T2V/sora-1080p/fake_videos/shard-000005.parquet,1,Fake,T2V,no_video_bytes_in_parquet_row,

@@ -1,0 +1,12 @@
+{
+  "dataset_dir": "/content/drive/MyDrive/skripsi/dataset_image",
+  "target_image_sample": 10000,
+  "valid_images": 10000,
+  "invalid_images": 0,
+  "removed_files": 0,
+  "label_distribution": {
+    "0": 3334,
+    "1": 3333,
+    "2": 3333
+  }
+}
