@@ -1,0 +1,45 @@
+{
+  "model_family": "video",
+  "architecture": "VideoCNN",
+  "selected_model": "MobileNetV2",
+  "selected_backbone": "mobilenet_v2",
+  "experiment_name": "video_1e-4",
+  "learning_rate": 0.0001,
+  "learning_rate_choice": "base",
+  "epochs": 5,
+  "batch_size": 8,
+  "weight_decay": 1e-05,
+  "subtype_loss_weight": 0.5,
+  "num_frames": 16,
+  "frame_size": [
+    224,
+    224
+  ],
+  "num_classes": 2,
+  "class_names": [
+    "Real",
+    "Fake"
+  ],
+  "num_subtypes": 8,
+  "subtype_classes": [
+    "Change_of_style",
+    "Extrapolation",
+    "Faceswap",
+    "Inpainting",
+    "Interpolation",
+    "Outpainting",
+    "T2V",
+    "TI2V"
+  ],
+  "augmentation": "standard_light",
+  "dataset_source": "dataset_video_cleaned",
+  "target_video_sample": 10000,
+  "shared_video_split": "/content/drive/MyDrive/skripsi/shared_splits/video_split.csv",
+  "shared_image_split": "/content/drive/MyDrive/skripsi/shared_splits/image_split.csv",
+  "shared_image_binary_input": "/content/drive/MyDrive/skripsi/shared_splits/image_binary_input.csv",
+  "shared_mixed_input": "/content/drive/MyDrive/skripsi/shared_splits/mixed_input.csv",
+  "early_stopping_monitor": "val_f1",
+  "early_stopping_patience": 2,
+  "created_at": "2026-06-10 07:02:08",
+  "run_dir": "/content/drive/MyDrive/skripsi/experiments/video_1e-4"
+}

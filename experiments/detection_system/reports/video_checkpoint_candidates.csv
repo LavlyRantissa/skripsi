@@ -1,0 +1,2 @@
+model_family,source_name,checkpoint_path,selected_model,selected_backbone,val_f1,learning_rate
+video,video_1e-4,/content/drive/MyDrive/skripsi/experiments/video_1e-4/checkpoints/best.pth,MobileNetV2,mobilenet_v2,0.9655638082376773,0.0001

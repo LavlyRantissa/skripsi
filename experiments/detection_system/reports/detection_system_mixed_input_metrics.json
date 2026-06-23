@@ -1,0 +1,33 @@
+{
+  "experiment_name": "detection_system_mixed_input",
+  "num_samples": 1500,
+  "num_images": 750,
+  "num_videos": 750,
+  "processed_samples": 1500,
+  "failed_samples": 0,
+  "pipeline_success_rate": 1.0,
+  "end_to_end_accuracy": 0.9073333333333333,
+  "accuracy": 0.9073333333333333,
+  "precision": 0.9077167683029909,
+  "recall": 0.9073333333333333,
+  "f1": 0.9073115412468087,
+  "routing_total": 1500,
+  "routing_correct": 1500,
+  "routing_wrong": 0,
+  "routing_accuracy": 1.0,
+  "confusion_matrix": [
+    [
+      669,
+      81
+    ],
+    [
+      58,
+      692
+    ]
+  ],
+  "results_csv": "/content/drive/MyDrive/skripsi/experiments/detection_system/reports/detection_system_mixed_input_results.csv",
+  "routing_details_csv": "/content/drive/MyDrive/skripsi/experiments/detection_system/reports/detection_system_mixed_input_routing_details.csv",
+  "classification_report_csv": "/content/drive/MyDrive/skripsi/experiments/detection_system/reports/detection_system_mixed_input_classification_report.csv",
+  "confusion_matrix_csv": "/content/drive/MyDrive/skripsi/experiments/detection_system/reports/detection_system_mixed_input_confusion_matrix.csv",
+  "confusion_matrix_png": "/content/drive/MyDrive/skripsi/experiments/detection_system/visualizations/detection_system_mixed_input_confusion_matrix.png"
+}

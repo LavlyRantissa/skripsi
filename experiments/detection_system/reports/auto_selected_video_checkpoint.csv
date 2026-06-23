@@ -1,0 +1,4 @@
+learning_rate,lr_value,best_epoch,best_val_f1,history_path,checkpoint_path
+1e-4,0.0001,5,0.9655638082376773,/content/drive/MyDrive/skripsi/experiments/video_1e-4/reports/training_history.json,/content/drive/MyDrive/skripsi/experiments/video_1e-4/checkpoints/best.pth
+1e-3,0.001,5,0.9519945909398242,/content/drive/MyDrive/skripsi/experiments/video_1e-3/reports/training_history.json,/content/drive/MyDrive/skripsi/experiments/video_1e-3/checkpoints/best.pth
+1e-5,1e-05,5,0.80180859080633,/content/drive/MyDrive/skripsi/experiments/video_1e-5/reports/training_history.json,/content/drive/MyDrive/skripsi/experiments/video_1e-5/checkpoints/best.pth

@@ -1,0 +1,33 @@
+{
+  "experiment_name": "detection_system_video_input",
+  "num_samples": 1500,
+  "num_images": 0,
+  "num_videos": 1500,
+  "processed_samples": 1500,
+  "failed_samples": 0,
+  "pipeline_success_rate": 1.0,
+  "end_to_end_accuracy": 0.9593333333333334,
+  "accuracy": 0.9593333333333334,
+  "precision": 0.9593406827842579,
+  "recall": 0.9593333333333334,
+  "f1": 0.959333170666016,
+  "routing_total": 1500,
+  "routing_correct": 1500,
+  "routing_wrong": 0,
+  "routing_accuracy": 1.0,
+  "confusion_matrix": [
+    [
+      721,
+      29
+    ],
+    [
+      32,
+      718
+    ]
+  ],
+  "results_csv": "/content/drive/MyDrive/skripsi/experiments/detection_system/reports/detection_system_video_input_results.csv",
+  "routing_details_csv": "/content/drive/MyDrive/skripsi/experiments/detection_system/reports/detection_system_video_input_routing_details.csv",
+  "classification_report_csv": "/content/drive/MyDrive/skripsi/experiments/detection_system/reports/detection_system_video_input_classification_report.csv",
+  "confusion_matrix_csv": "/content/drive/MyDrive/skripsi/experiments/detection_system/reports/detection_system_video_input_confusion_matrix.csv",
+  "confusion_matrix_png": "/content/drive/MyDrive/skripsi/experiments/detection_system/visualizations/detection_system_video_input_confusion_matrix.png"
+}

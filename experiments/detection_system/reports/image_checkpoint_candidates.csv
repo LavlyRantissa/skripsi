@@ -1,0 +1,2 @@
+model_family,source_name,checkpoint_path,selected_model,selected_backbone,val_f1,learning_rate
+image,image_1e-4,/content/drive/MyDrive/skripsi/experiments/image_1e-4/checkpoints/best.pth,EfficientNet-B0,efficientnet_b0,0.8526024416207408,0.0001

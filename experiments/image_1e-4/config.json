@@ -1,0 +1,22 @@
+{
+  "model_family": "image",
+  "architecture": "ImageClassifier",
+  "selected_model": "EfficientNet-B0",
+  "selected_backbone": "efficientnet_b0",
+  "experiment_name": "image_1e-4",
+  "learning_rate": 0.0001,
+  "learning_rate_choice": "base",
+  "epochs": 15,
+  "batch_size": 32,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.05,
+  "img_size": 224,
+  "num_classes": 3,
+  "class_names": [
+    "Real",
+    "Full-Synthetic",
+    "Tampered"
+  ],
+  "augmentation": "standard",
+  "created_at": "2026-06-08 17:38:16"
+}
