@@ -23,7 +23,7 @@ Split data yang digunakan: 70% train / 15% validasi / 15% test. File CSV split d
 
 ## Arsitektur
 
-![Arsitektur Sistem](<img width="1006" height="521" alt="arsitekturSistem" src="https://github.com/user-attachments/assets/ae56c0b7-a39f-4a6b-8cdb-b6a42dbde5cb" />)
+<img width="1006" height="521" alt="arsitekturSistem" src="https://github.com/user-attachments/assets/2fa08aeb-fd57-4fba-820a-1c1801990efc" />
 
 Backbone dipilih melalui eksperimen yang membandingkan tiga kandidat backbone untuk masing-masing jalur, kemudian backbone dengan validation F1 tertinggi dipilih sebagai backbone terbaik. EfficientNet-B0 dan MobileNetV2 adalah backbone yang terpilih, keduanya kemudian dilanjutkan ke eksperimen selanjutnya, yaitu pemilihan learning rate terbaik melalui perbandingan tiga variasi learning rate pada setiap model, yaitu learning rate 1e-3, 1e-4, dan 1e-5. Learning rate terbaik untuk kedua model adalah 1e-4.
 
